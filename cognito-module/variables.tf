@@ -635,6 +635,6 @@ variable "identity_providers" {
 
 variable "create" {
   description = "The environment name"
-  type = bool
-  default = false
+  type        = bool
+  default     = false
 }

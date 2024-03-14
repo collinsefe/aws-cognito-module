@@ -200,4 +200,3 @@ module "aws_cognito_user_pool" {
 resource "aws_kms_key" "lambda-custom-sender" {
   description = "KMS key for lambda custom sender config"
 }
-
